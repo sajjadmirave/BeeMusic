@@ -1,0 +1,26 @@
+body{
+    display: flex;
+}
+
+.aside-menu{
+    width: 165px;
+    height: 100vh;
+}
+
+.body-area{
+    width: calc(100% - 165px);
+    height: 100vh;
+    display: flex; // for flex it right box and left box 
+
+    .left-box{
+        width: 70%;
+        height: 100vh;
+        background: pink;
+    }
+
+    .right-box{
+        width: 30%;
+        height: 100vh;
+
+    }
+}

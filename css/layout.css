@@ -1,0 +1,18 @@
+body {
+  display: flex; }
+
+.aside-menu {
+  width: 165px;
+  height: 100vh; }
+
+.body-area {
+  width: calc(100% - 165px);
+  height: 100vh;
+  display: flex; }
+  .body-area .left-box {
+    width: 70%;
+    height: 100vh;
+    background: pink; }
+  .body-area .right-box {
+    width: 30%;
+    height: 100vh; }
