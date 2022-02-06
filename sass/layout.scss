@@ -1,31 +1,29 @@
-body{
-    display: flex;
+body {
+  display: flex;
 }
 
-.aside-menu{
-    position: relative; // for move the close btn
-    width: 165px; //165px when open
-    height: 100vh;
-    transition: all .6s; // when open has animation
+.aside-menu {
+  position: relative; // for move the close btn
+  width: 165px; //165px when open
+  height: 100vh;
+  transition: all 0.6s; // when open has animation
 }
 
+.body-area {
+  width: calc(100% - 165px);
+  height: 100vh;
+  display: flex; // for flex it right box and left box
 
-.body-area{
-    width: calc(100% - 165px);
+  .left-box {
+    width: 70%;
     height: 100vh;
-    display: flex; // for flex it right box and left box 
+    background: #fdfdfd;
+  }
 
-    .left-box{
-        width: 70%;
-        height: 100vh;
-        background: pink;
-    }
-
-    .right-box{
-        width: 30%;
-        height: 100vh;
-
-    }
+  .right-box {
+    width: 30%;
+    height: 100vh;
+  }
 }
 
 // responsive layout when moblie size and aside menu not opend

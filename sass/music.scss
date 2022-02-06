@@ -1,0 +1,38 @@
+@import "./functions";
+
+.music-area {
+  height: 213px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+
+  .single-box-music {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 80px;
+    background: green;
+  }
+
+  .img-text-music {
+    display: flex;
+    // flex-flow: column;
+    align-items: center;
+  }
+
+  .img-music {
+    @include music-setting;
+  }
+
+  .times-btn-music {
+    position: absolute;
+    right: 10px;
+
+    .music-item {
+      padding-right: 10px;
+    }
+  }
+}

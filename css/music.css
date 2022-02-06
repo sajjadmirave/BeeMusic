@@ -1,0 +1,26 @@
+.music-area {
+  height: 213px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto; }
+  .music-area .single-box-music {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 80px;
+    background: green; }
+  .music-area .img-text-music {
+    display: flex;
+    align-items: center; }
+  .music-area .img-music {
+    width: 65px;
+    height: 65px;
+    border-radius: 25px; }
+  .music-area .times-btn-music {
+    position: absolute;
+    right: 10px; }
+    .music-area .times-btn-music .music-item {
+      padding-right: 10px; }

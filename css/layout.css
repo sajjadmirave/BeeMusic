@@ -5,7 +5,7 @@ body {
   position: relative;
   width: 165px;
   height: 100vh;
-  transition: all .6s; }
+  transition: all 0.6s; }
 
 .body-area {
   width: calc(100% - 165px);
@@ -14,7 +14,7 @@ body {
   .body-area .left-box {
     width: 70%;
     height: 100vh;
-    background: pink; }
+    background: #fdfdfd; }
   .body-area .right-box {
     width: 30%;
     height: 100vh; }
