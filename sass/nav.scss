@@ -1,0 +1,35 @@
+.body-nav {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .input-search {
+    width: 320px;
+    height: 35px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    //search icon
+    i {
+      position: absolute;
+      left: 10px;
+      // top: 5px;
+    }
+
+    input {
+      width: 320px;
+      height: 35px;
+      border-radius: 23px;
+      border: white;
+      padding-left: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width:992px) {
+    .body-nav{
+        margin-top: 30px;
+    }
+}

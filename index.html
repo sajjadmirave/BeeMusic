@@ -27,6 +27,9 @@
     <!-- ! link aside menu  -->
     <link rel="stylesheet" href="./css/aside-menu.css" />
 
+    <!--! link nav  -->
+    <link rel="stylesheet" href="./css/nav.css" />
+
     <title>Hello, world!</title>
   </head>
   <body>
@@ -61,7 +64,7 @@
             </li>
             <!-- ** logo end -->
             <br />
-            <li id="Home" >
+            <li id="Home">
               <a href=""><i class="fas fa-home"></i> Home</a>
             </li>
             <li>
@@ -117,7 +120,25 @@
     <!-- *end aside ***** -->
 
     <div class="body-area bg-success">
-      <div class="left-box"></div>
+      <div class="left-box bg-info">
+        <!-- navbar -->
+        <div class="body-nav">
+          <div class="icon-nav">
+            <i class="fas fa-arrow-left "></i>
+            <i class="fas fa-arrow-right "></i>
+          </div>
+
+
+          <div class="input-search">
+            <input
+              type="search"
+              class=""
+              placeholder="Search for song,artist or playlist"
+            />
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+      </div>
       <div class="right-box bg-warning"></div>
     </div>
 
