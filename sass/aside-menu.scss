@@ -52,6 +52,21 @@
 
     .body-area{
         width: 100% !important;
+        height: 300vh;
+        display: flex;
+        flex-flow: column;
+
+        .left-box{
+            width: 100% !important;
+            height: 100vh;
+            background: pink;
+        }
+    
+        .right-box{
+            width: 100%  !important;
+            height: 100vh;
+    
+        }
     }
 }
    

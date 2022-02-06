@@ -38,4 +38,14 @@
     height: 100vh;
     transition: all .6s; }
   .body-area {
-    width: 100% !important; } }
+    width: 100% !important;
+    height: 300vh;
+    display: flex;
+    flex-flow: column; }
+    .body-area .left-box {
+      width: 100% !important;
+      height: 100vh;
+      background: pink; }
+    .body-area .right-box {
+      width: 100%  !important;
+      height: 100vh; } }
