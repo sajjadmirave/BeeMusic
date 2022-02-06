@@ -2,8 +2,10 @@ body {
   display: flex; }
 
 .aside-menu {
+  position: relative;
   width: 165px;
-  height: 100vh; }
+  height: 100vh;
+  transition: all .6s; }
 
 .body-area {
   width: calc(100% - 165px);
@@ -16,3 +18,7 @@ body {
   .body-area .right-box {
     width: 30%;
     height: 100vh; }
+
+@media screen and (max-width) {
+  .body-area {
+    width: 100% !important; } }

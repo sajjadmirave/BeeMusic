@@ -3,9 +3,12 @@ body{
 }
 
 .aside-menu{
-    width: 165px;
+    position: relative; // for move the close btn
+    width: 165px; //165px when open
     height: 100vh;
+    transition: all .6s; // when open has animation
 }
+
 
 .body-area{
     width: calc(100% - 165px);
@@ -24,3 +27,5 @@ body{
 
     }
 }
+
+// responsive layout when moblie size and aside menu not opend

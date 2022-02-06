@@ -30,8 +30,14 @@
     <title>Hello, world!</title>
   </head>
   <body>
+    <!-- ** open menu btn -->
+    <div id="openFunction" onclick="openFunction()"><i class="fas fa-bars"></i></div>
+
     <!--  aside menu -->
-    <div class="aside-menu bg-dark"></div>
+    <div class="aside-menu bg-dark" id="aside-menu">
+        <!-- ** close menu btn 👇 -->
+        <div id="closeFunction" onclick="closeFunction()"><i class="fas fa-times text-danger"></i></div>
+    </div>
     <!-- ***** -->
 
     <div class="body-area bg-success">
