@@ -18,7 +18,3 @@ body {
   .body-area .right-box {
     width: 30%;
     height: 100vh; }
-
-@media screen and (max-width) {
-  .body-area {
-    width: 100% !important; } }
