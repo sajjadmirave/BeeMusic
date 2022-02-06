@@ -1,0 +1,15 @@
+@mixin circle-setting {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+@mixin flex-center-x {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin startt {
+    display: flex;
+    justify-content: flex-start;
+}

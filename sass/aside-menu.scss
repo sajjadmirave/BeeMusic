@@ -1,72 +1,127 @@
 @import url(./layout.scss);
+@import "./functions";
 
+#openFunction {
+  display: none;
+  position: absolute;
+  top: 10px;
+  // left: 175px;
+  left: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.5s; // when open has animation
+}
 
-#openFunction{
-    display: none;
+#closeFunction {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  #openFunction {
+    display: block !important;
     position: absolute;
     top: 10px;
     // left: 175px;
     left: 10px;
     font-size: 18px;
     cursor: pointer;
-    transition: all .5s; // when open has animation
-}
+    transition: all 0.5s; // when open has animation
+  }
 
-#closeFunction{
-    display: none;
+  #closeFunction {
+    display: block !important;
     position: absolute;
     top: 10px;
     right: 10px;
     font-size: 18px;
     cursor: pointer;
+  }
+
+  .aside-menu {
+    position: relative; // for move the close btn
+    width: 0px; //165px when open
+    height: 100vh;
+    transition: all 0.6s; // when open has animation
+  }
+
+  .body-area {
+    width: 100% !important;
+    height: 300vh;
+    display: flex;
+    flex-flow: column;
+
+    .left-box {
+      width: 100% !important;
+      height: 100vh;
+      background: pink;
+    }
+
+    .right-box {
+      width: 100% !important;
+      height: 100vh;
+    }
+  }
 }
 
-@media screen and (max-width:992px) {
-    #openFunction{
-        display: block !important;
-        position: absolute;
-        top: 10px;
-        // left: 175px;
-        left: 10px;
-        font-size: 18px;
-        cursor: pointer;
-        transition: all .5s; // when open has animation
-    }
+// create the circle on top menu
+.circles {
+  @include startt();
+  .circle1 {
+    @include circle-setting();
+  }
+
+  .circle2 {
+    @include circle-setting();
+  }
+
+  .circle3 {
+    @include circle-setting();
+  }
+
+  .circle {
+    //margin
+
+    margin: 5px;
+  }
+}
+
+// create nav
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column;
+
     
-    #closeFunction{
-        display: block !important;
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        font-size: 18px;
-        cursor: pointer;
+
+  ul {
+    li {
+      list-style-type: none;
     }
 
-    .aside-menu{
-        position: relative; // for move the close btn
-        width: 0px; //165px when open
-        height: 100vh;
-        transition: all .6s; // when open has animation
+    a {
+      text-decoration: none;
     }
-    
+  }
+}
 
-    .body-area{
-        width: 100% !important;
-        height: 300vh;
-        display: flex;
-        flex-flow: column;
 
-        .left-box{
-            width: 100% !important;
-            height: 100vh;
-            background: pink;
-        }
-    
-        .right-box{
-            width: 100%  !important;
-            height: 100vh;
-    
-        }
+.account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 60px;
+    background: lightblue;
+    border-radius: 20px;
+    margin-left: 10px;
+    a{
+        text-decoration: none;
+        color: black;
     }
 }
-   

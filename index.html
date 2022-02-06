@@ -31,18 +31,101 @@
   </head>
   <body>
     <!-- ** open menu btn -->
-    <div id="openFunction" onclick="openFunction()"><i class="fas fa-bars"></i></div>
+    <div id="openFunction" onclick="openFunction()">
+      <i class="fas fa-bars"></i>
+    </div>
 
     <!--  aside menu -->
-    <div class="aside-menu bg-dark" id="aside-menu">
-        <!-- ** close menu btn 👇 -->
-        <div id="closeFunction" onclick="closeFunction()"><i class="fas fa-times text-danger"></i></div>
+    <div class="aside-menu bg-info" id="aside-menu">
+      <br />
+      <div class="circles">
+        <div class="circle1 bg-danger circle"></div>
+        <div class="circle2 bg-warning circle"></div>
+        <div class="circle3 bg-success circle"></div>
+      </div>
+      <br />
+      <!-- ********* -->
+
+      <!-- create the logo and navbar-menu-->
+      <div class="navbar">
+        <ul>
+          <li style="font-size: 18px">
+            <!-- logo 👇 -->
+            <a href=""
+              ><i class="fas fa-music text-warning"></i>
+              <span class="text-warning">Bee</span>
+              <span class="text-dark">Music</span></a
+            >
+          </li>
+          <!-- ** logo end -->
+          <br />
+          <li>
+            <a href=""><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-compact-disc"></i> Explor</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-guitar"></i> Album</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-music"></i> Artist</a>
+          </li>
+          <br />
+          <p style="font-size: 10px">Discover</p>
+          <li>
+            <a href=""><i class="fas fa-cog"></i> Setting</a>
+          </li>
+          <li>
+            <a href=""><i class="far fa-heart"></i> Fayorite Song</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-blog"></i> Live</a>
+          </li>
+          <br />
+          <p style="font-size: 10px">Play List</p>
+          <li>
+            <a href=""><i class="fas fa-headphones-alt"></i> Rap Play List</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-headphones-alt"></i> Pop</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-headphones-alt"></i> My Play List</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-headphones-alt"></i> Top Song</a>
+          </li>
+        </ul>
+        
+        <div class="line" style="border: 1px solid black; width: 165px"></div>
+        <br>
+        <!-- account 👇 -->
+        <div class="account">
+          <a href=""
+            ><img
+              src="./image/sajjad logo.jpg"
+              width="35px"
+              height="35px"
+              style="border-radius: 50%"
+              alt=""
+
+          />
+            sajjad <i class="fas fa-chevron-right"></i>
+        </a>
+        </div>
+      </div>
+
+      <!-- ** close menu btn 👇 -->
+      <div id="closeFunction" onclick="closeFunction()">
+        <i class="fas fa-times text-danger"></i>
+      </div>
     </div>
     <!-- ***** -->
 
     <div class="body-area bg-success">
-        <div class="left-box"></div>
-        <div class="right-box bg-warning"></div>
+      <div class="left-box"></div>
+      <div class="right-box bg-warning"></div>
     </div>
 
     <!-- ! link js -->
