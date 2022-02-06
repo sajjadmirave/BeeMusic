@@ -125,3 +125,10 @@
         color: black;
     }
 }
+
+@media screen and (max-width:992px) {
+    .aside-menu-data{
+        display: none;
+        transition: all 2s;
+    }
+}
