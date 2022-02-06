@@ -3,12 +3,14 @@ function openFunction() {
 
   document.getElementById("aside-menu").style.width = "165px";
   document.getElementById("openFunction").style.left = "175px";
-  // document.getElementById("aside-menu-data").style.display = "block"
-  if ((document.getElementById("aside-menu").style.width = "165px")) {
-    document.getElementById("aside-menu-data").style.transition = "all 2s";
-    document.getElementById("aside-menu-data").style.display = "block";
-  }
+   document.getElementById("aside-menu-data").style.display = "block"
 }
+
+//   if ((document.getElementById("aside-menu").style.width = "165px")) {
+//     document.getElementById("aside-menu-data").style.transition = "all 2s";
+//     document.getElementById("aside-menu-data").style.display = "block";
+//   }
+// }
 
 function closeFunction() {
   document.getElementById("aside-menu").style.width = "0px";
