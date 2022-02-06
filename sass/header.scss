@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+
+  .header-text {
+    justify-content: flex-start;
+  }
+
+  .img-header {
+    img {
+      border-radius: 9px;
+    }
+
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    .text-img-header {
+      margin-left: 20px;
+      margin-bottom: 30px;
+      position: absolute;
+      //   top: 50px;
+    }
+  }
+}
+
+#play-btn-header {
+  :hover {
+    background-color: pink;
+  }
+}
+
+#follow-btn-header {
+  border: 1px solid black;
+}
+
+
+@media screen and (max-width:556px) {
+    .img-header img{
+        width: 350px !important;
+    }
+}
