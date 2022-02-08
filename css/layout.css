@@ -14,7 +14,7 @@ body {
   .body-area .left-box {
     width: 70%;
     height: 100vh;
-    background: #fdfdfd; }
+    background: #fdfdfd !important; }
   .body-area .right-box {
     width: 30%;
     height: 100vh; }
