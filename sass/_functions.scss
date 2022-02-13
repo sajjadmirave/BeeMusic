@@ -19,3 +19,20 @@
   height: 65px;
   border-radius: 25px;
 }
+
+@mixin flex-center-xy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin colum {
+  flex-flow: column;
+}
+
+@mixin short-cut-setting {
+  width: 120px;
+  height: 50px;
+  background: white;
+  border-radius: 18px;
+}
