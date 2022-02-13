@@ -1,0 +1,18 @@
+@import "./functions";
+
+.artist-area {
+  height: calc(100vh - 270px);
+  background: #ffffff;
+  padding-left: 20px;
+  .single-artist-box {
+    display: flex;
+    .artist-img img {
+      @include artist-setting();
+    }
+  }
+}
+
+.artist-single-box-data {
+  display: flex;
+  flex-flow: column;
+}

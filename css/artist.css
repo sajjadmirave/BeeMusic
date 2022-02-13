@@ -1,0 +1,14 @@
+.artist-area {
+  height: calc(100vh - 270px);
+  background: #ffffff;
+  padding-left: 20px; }
+  .artist-area .single-artist-box {
+    display: flex; }
+    .artist-area .single-artist-box .artist-img img {
+      width: 65px;
+      height: 65px;
+      border-radius: 50%; }
+
+.artist-single-box-data {
+  display: flex;
+  flex-flow: column; }

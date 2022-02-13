@@ -2,7 +2,7 @@
   height: 213px;
   display: flex;
   flex-flow: column;
-  justify-content: center;
+  justify-content: center !important;
   align-items: center;
   overflow-y: auto; }
   .music-area .single-box-music {
