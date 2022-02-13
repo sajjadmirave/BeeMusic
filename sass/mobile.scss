@@ -24,6 +24,27 @@
   }
 }
 
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  .short-cut {
+    width: 500px;
+    display: flex;
+    flex-flow: wrap !important;
+    justify-content: center;
+    align-items: center;
+
+    .short-cut-box {
+      margin-left: 29px !important;
+      margin-right: 29px !important;
+    }
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 749px) {
+  .short-cut-box {
+    margin-left: 59px !important;
+    margin-right: 59px !important;
+  }
+}
 // height
 
 // @media screen and (max-height: 500px) {

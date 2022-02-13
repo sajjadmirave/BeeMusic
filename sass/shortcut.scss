@@ -1,0 +1,21 @@
+@import "./functions";
+
+.short-cut {
+  width: 100%;
+  height: 270px;
+  background: pink;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .short-cut-box {
+    @include short-cut-setting();
+    margin-right: 5px;
+  }
+}
