@@ -37,11 +37,10 @@
     width: 0px;
     height: 100vh;
     transition: all 0.6s;
-    background: #FFFFFF;
+    background: #ffffff;
     color: #959595; }
   .body-area {
     width: 100% !important;
-    height: 300vh;
     display: flex;
     flex-flow: column; }
     .body-area .left-box {
@@ -89,7 +88,7 @@
   align-items: center;
   width: 140px;
   height: 60px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 20px;
   margin-left: 10px; }
   .account a {

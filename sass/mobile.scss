@@ -45,6 +45,12 @@
     margin-right: 59px !important;
   }
 }
+
+@media screen and (max-width: 556px) {
+  .artist-area {
+    height: 400px !important;
+  }
+}
 // height
 
 // @media screen and (max-height: 500px) {

@@ -28,6 +28,10 @@
     margin-left: 59px !important;
     margin-right: 59px !important; } }
 
+@media screen and (max-width: 556px) {
+  .artist-area {
+    height: 400px !important; } }
+
 @media screen and (max-height: 700px) {
   .left-box {
     height: 45.5rem !important; } }
